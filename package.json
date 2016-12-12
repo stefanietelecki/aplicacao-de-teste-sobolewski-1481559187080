@@ -17,7 +17,10 @@
     "loopback-connector-mysql": "^2.2.0",
     "loopback-datasource-juggler": "^2.39.0",
     "passport": "^0.3.2",
-    "serve-favicon": "^2.0.1"
+    "serve-favicon": "^2.0.1",
+    "cfenv": "",
+    "loopback-connector-couch":""
+    
   },
   "repository": {
     "type": "git",
