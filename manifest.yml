@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-sobolewski
+  host: aplicacao-de-teste-sobolewski
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-sobolewski-AdvancedMobileAccess
+  - aplicacao-de-teste-sobolewski-imfpush
+  - aplicacao-de-teste-sobolewski-cloudantNoSQLDB
